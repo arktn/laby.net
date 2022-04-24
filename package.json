@@ -1,0 +1,31 @@
+{
+  "name": "laby.net",
+  "version": "0.0.4",
+  "description": "JS wrapper for https://laby.net",
+  "main": "./lib/laby.net.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ./lib/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fez6/laby.net.git"
+  },
+  "keywords": [
+    "laby",
+    "labymod",
+    "minecraft",
+    "api",
+    "wrapper",
+    "skin",
+    "head"
+  ],
+  "author": "fez6 (https://github.com/fez6)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fez6/laby.net/issues"
+  },
+  "homepage": "https://github.com/fez6/laby.net#readme"
+}
