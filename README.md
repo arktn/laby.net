@@ -88,6 +88,7 @@ Returns:
 | Accepting UUIDs without dashes | ❔ Medium |
 | Custom user agent argument | ⚠️ High |
 | Adding search endpoint | ❌ Low |
+| [Adding fixed endpoint](https://github.com/LabyMod/og-names/issues/63) | ❔ Medium |
 
 ## Acknowledgements
 
