@@ -1,6 +1,6 @@
 {
   "name": "laby.net",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "JS wrapper for https://laby.net",
   "main": "./lib/laby.net.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fez6/laby.net.git"
+    "url": "git+https://github.com/kraigee/laby.net.git"
   },
   "keywords": [
     "laby",
@@ -22,10 +22,10 @@
     "skin",
     "head"
   ],
-  "author": "fez6 (https://github.com/fez6)",
+  "author": "kraigee (https://github.com/kraigee)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fez6/laby.net/issues"
+    "url": "https://github.com/kraigee/laby.net/issues"
   },
-  "homepage": "https://github.com/fez6/laby.net#readme"
+  "homepage": "https://github.com/kraigee/laby.net#readme"
 }

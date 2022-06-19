@@ -6,7 +6,7 @@ npm i -s laby.net
 ```
 ### The unofficial JavaScript API wrapper for laby.net.
 
-**Please keep in mind:** This version is not nearly finished and has many bugs, problems etc. Since the API is not intended to be a public API schemas can change at any time making this package or some functionss of it useless. I will also not work that actively on this package since I mainly created it for my own private usage.
+**Please keep in mind:** This version is not nearly finished and has many bugs, problems etc. Since the API is not intended to be a public API schemas can change at any time making this package or some functions of it useless. I will also not work that actively on this package since I mainly created it for my own private usage.
 
 ### User
 
@@ -86,14 +86,14 @@ Returns:
 | ------------- | ------- |
 | Error handeling | ⚠️ High |
 | Accepting UUIDs without dashes | ❔ Medium |
-| Custom user agent argument | ⚠️ High |
+| ~Custom user agent argument~ | ✅ Added |
 | Adding search endpoint | ❌ Low |
-| [Adding fixed endpoint](https://github.com/LabyMod/og-names/issues/63) | ❔ Medium |
+| ~[Adding fixed endpoint](https://github.com/LabyMod/og-names/issues/63)~ | ✅ Added |
 
 ## Acknowledgements
 
-* [Niklas](https://laby.net/@Niklas): Test-User
+* [Niklas](https://laby.net/@Niklas) & [Dinnerbone](https://laby.net/@Dinnerbone): Test-Users
 * [GommeHD.net](https://laby.net/server/gommehd): Test-Server
 
 ## LICENSE
-MIT © 2022 [fez6](https://github.com/fez6)
+MIT © 2022 [kraigee](https://github.com/kraigee)
