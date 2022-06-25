@@ -1,13 +1,13 @@
 {
   "name": "laby.net",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "JS wrapper for https://laby.net",
-  "main": "./lib/laby.net.js",
+  "main": "./lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "node ./lib/test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/kraigee/laby.net/issues"
   },
-  "homepage": "https://github.com/kraigee/laby.net#readme"
+  "homepage": "https://github.com/kraigee/laby.net#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
 }
