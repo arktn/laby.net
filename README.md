@@ -1,4 +1,4 @@
-# laby.net
+# laby.net [![npm](https://img.shields.io/npm/dt/laby.net.svg?maxAge=3600)](https://www.npmjs.com/package/laby.net) [![npm](https://img.shields.io/npm/v/laby.net.svg)](https://www.npmjs.com/package/laby.net) [![install size](https://packagephobia.com/badge?p=laby.net)](https://packagephobia.com/result?p=laby.net)
 
 ## Installation
 ```
@@ -24,6 +24,7 @@ npm i -s laby.net
 | Function | Description | Returns |
 | -------- | ----------- | ------- |
 | `votes` | Get the servers votes | Number |
+| `checkVote` | Get when a user voted for a server | String |
 
 ## User-Examples
 
