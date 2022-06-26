@@ -154,8 +154,8 @@ Returns:
 
 ## Acknowledgements
 
-* [Niklas](https://laby.net/@Niklas) & [Dinnerbone](https://laby.net/@Dinnerbone): Test-Users
-* [GommeHD.net](https://laby.net/server/gommehd): Test-Server
+* [Niklas](https://laby.net/@Niklas) & [Dinnerbone](https://laby.net/@Dinnerbone): User-Data
+* [GommeHD.net](https://laby.net/server/gommehd): Server-Data
 
 ## LICENSE
 MIT © 2022 [kraigee](https://github.com/kraigee)
