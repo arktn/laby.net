@@ -30,7 +30,7 @@ npm i -s laby.net
 
 ### The argument can either be a username or the users UUID (dashes required).
 
-Array example
+**Array example**
 ```js
 const laby = require('laby.net');
 
@@ -51,7 +51,7 @@ Returns:
 ]
 ```
 
-String example
+**String example**
 ```js
 const laby = require('laby.net');
 
@@ -66,7 +66,9 @@ Returns:
 Administrator
 ```
 
-Server example
+## Server-Examples
+
+**Number example**
 ```js
 const laby = require('laby.net');
 
@@ -81,12 +83,27 @@ Returns:
 92
 ```
 
+**Date example**
+```js
+const laby = require('laby.net');
+
+async function test() {
+  console.log(await laby.checkVote('gommehd.net', 'Niklas'));
+}
+
+test();
+```
+Returns: 
+```js
+2021-08-23T20:15:55
+```
+
 ## Still to be fixed
 
 | Bug / Problem | Urgency |
 | ------------- | ------- |
 | Error handeling | ⚠️ High |
-| Accepting UUIDs without dashes | ❔ Medium |
+| ~Accepting UUIDs without dashes~ | ✅ Added |
 | ~Custom user agent argument~ | ✅ Added |
 | Adding search endpoint | ❌ Low |
 | ~[Adding fixed endpoint](https://github.com/LabyMod/og-names/issues/63)~ | ✅ Added |
