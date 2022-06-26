@@ -1,52 +1,99 @@
 const laby = require('../lib/index');
-describe('User-Functions:', function () {
-  describe('Username argument:', function () {
-    it('Badges', function () {
+describe('/user/:', function () {
+  describe('/user/{name}:', function () {
+    it('get-badges', function () {
       laby.badges('Niklas');
     });
-    it('Friends', function () {
+    it('get-friends', function () {
       laby.friends('Niklas');
     });
-    it('Role', function () {
-      laby.role('Niklas');
-    });
-    it('Background', function () {
-      laby.background('Niklas');
+    it('get-snipped', function () {
+      it('.role', function () {
+        laby.role('Niklas');
+      });
+      it('.background', function () {
+        laby.background('Niklas');
+      });
     });
   });
-  describe('UUID argument:', function () {
-    it('Badges', function () {
+  describe('/user/{uuid}', function () {
+    it('get-badges', function () {
       laby.badges('e0276ad9-1cd6-4c8d-b8f7-ff97e75c5982');
     });
-    it('Friends', function () {
+    it('get-friends', function () {
       laby.friends('e0276ad9-1cd6-4c8d-b8f7-ff97e75c5982');
     });
-    it('Role', function () {
-      laby.role('e0276ad9-1cd6-4c8d-b8f7-ff97e75c5982');
-    });
-    it('Background', function () {
-      laby.background('e0276ad9-1cd6-4c8d-b8f7-ff97e75c5982');
+    it('get-snipped', function () {
+      it('.role', function () {
+        laby.role('e0276ad9-1cd6-4c8d-b8f7-ff97e75c5982');
+      });
+      it('.background', function () {
+        laby.background('e0276ad9-1cd6-4c8d-b8f7-ff97e75c5982');
+      });
     });
   });
 });
-describe('Server-Functions:', function () {
-  it('Server-Votes', function () {
+
+describe('/server/', function () {
+  it('rates', function () {
     laby.votes('gommehd.net');
   });
-  describe('Username argument:', function () {
+  describe('rates/{name}', function () {
     it('Server-User-Votes', function () {
       laby.checkVote('gommehd.net', 'Niklas');
     });
-    it('Server-User-Votes-Error', function () {
+    it('Server-User-Votes [Error]', function () {
       laby.checkVote('gommehd.net', 'Dinnerbone');
     });
   });
-  describe('UUID argument:', function () {
+  describe('rates/{uuid}', function () {
     it('Server-User-Votes', function () {
       laby.checkVote('gommehd.net', 'e0276ad9-1cd6-4c8d-b8f7-ff97e75c5982');
     });
-    it('Server-User-Votes-Error', function () {
+    it('Server-User-Votes [Error]', function () {
       laby.checkVote('gommehd.net', '61699b2e-d327-4a01-9f1e-0ea8c3f06bc6');
+    });
+  });
+});
+
+describe('/texture/', function () {
+  describe('/profile/skin', function () {
+    describe('/{name}', function () {
+      it('Profile Skin [NAME]', function () {
+        laby.skin('Niklas');
+      });
+    });
+    describe('/{uuid}', function () {
+      it('Profile Skin [UUID]', function () {
+        laby.skin('61699b2e-d327-4a01-9f1e-0ea8c3f06bc6');
+      });
+    });
+  });
+  describe('/profile/head', function () {
+    describe('/{name}', function () {
+      it('Profile Head [NAME]', function () {
+        laby.head('Niklas');
+      });
+    });
+    describe('/{uuid}', function () {
+      it('Profile Head [UUID]', function () {
+        laby.head('61699b2e-d327-4a01-9f1e-0ea8c3f06bc6');
+      });
+    });
+  });
+});
+
+describe('/search/', function () {
+  describe('/names/{input}', function () {
+    describe('/{input} [Type:NAME]', function () {
+      it('Search Name [Type:NAME]', function () {
+        laby.search('Niklas');
+      });
+    });
+    describe('/{input} [Type:UUID]', function () {
+      it('Search Name [Type:UUID]', function () {
+        laby.search('Niklas');
+      });
     });
   });
 });

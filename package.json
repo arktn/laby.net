@@ -1,6 +1,6 @@
 {
   "name": "laby.net",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "JS wrapper for https://laby.net",
   "main": "./lib/index.js",
   "directories": {
