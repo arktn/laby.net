@@ -12,19 +12,25 @@ npm i -s laby.net
 
 | Function | Description | Returns |
 | -------- | ----------- | ------- |
-| `badges` | Get a list of the users badges | Array |
-| `friends` | Get a list of the users friends | Array |
-| `role` | Get the users role | String |
-| `background` | Get the users profile background | String |
-| `head` | Get the users head | String |
-| `skin` | Get the users skin | String |
+| `badges` | Get Badges | Array |
+| `friends` | Get Friends | Array |
+| `role` | Get Role | String |
+| `background` | Get Background | String |
+| `head` | Get Head | String |
+| `skin` | Get Skin | String |
 
 ### Server
 
 | Function | Description | Returns |
 | -------- | ----------- | ------- |
-| `votes` | Get the servers votes | Number |
-| `checkVote` | Get when a user voted for a server | String |
+| `votes` | Get Server-Votes | Number |
+| `checkVote` | Get Server-User-Votes | String |
+
+### Search
+
+| Function | Description | Returns |
+| -------- | ----------- | ------- |
+| `search` | Search Name | Array |
 
 ## User-Examples
 
@@ -98,6 +104,44 @@ Returns:
 2021-08-23T20:15:55
 ```
 
+## Search-Examples
+
+**Name example**
+```js
+const laby = require('laby.net');
+
+async function test() {
+  console.log(await laby.search('Niklas', 'name'));
+}
+
+test();
+```
+Returns: 
+```js
+[ 'Niklas', 'niklas_', 'Niklas__', 'niklas___', 'niklas____' ]
+```
+
+**UUID example**
+```js
+const laby = require('laby.net');
+
+async function test() {
+  console.log(await laby.search('Niklas', 'uuid'));
+}
+
+test();
+```
+Returns: 
+```js
+[
+  'e0276ad9-1cd6-4c8d-b8f7-ff97e75c5982',
+  '1418ddff-41b5-46fa-94d6-3b30dfd89158',
+  '932f1d36-dc7e-42f5-88f5-0b4238e0486f',
+  '262229d3-8b08-4899-931f-a386a0431118',
+  '9b4d916c-c2a8-4a6f-ab8b-698d171a6a5a'
+]
+```
+
 ## Still to be fixed
 
 | Bug / Problem | Urgency |
@@ -105,7 +149,7 @@ Returns:
 | Error handeling | ⚠️ High |
 | ~Accepting UUIDs without dashes~ | ✅ Added |
 | ~Custom user agent argument~ | ✅ Added |
-| Adding search endpoint | ❌ Low |
+| ~Adding search endpoint~ | ✅ Added |
 | ~[Adding fixed endpoint](https://github.com/LabyMod/og-names/issues/63)~ | ✅ Added |
 
 ## Acknowledgements
