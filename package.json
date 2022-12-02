@@ -1,6 +1,6 @@
 {
   "name": "laby.net",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "JS wrapper for https://laby.net",
   "main": "./lib/index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kraigee/laby.net.git"
+    "url": "git+https://github.com/schnappi21/laby.net.git"
   },
   "keywords": [
     "laby",
@@ -22,12 +22,12 @@
     "skin",
     "head"
   ],
-  "author": "kraigee (https://github.com/kraigee)",
+  "author": "schnappi21 (https://github.com/schnappi21)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kraigee/laby.net/issues"
+    "url": "https://github.com/schnappi21/laby.net/issues"
   },
-  "homepage": "https://github.com/kraigee/laby.net#readme",
+  "homepage": "https://github.com/schnappi21/laby.net#readme",
   "devDependencies": {
     "mocha": "^10.0.0"
   }
