@@ -158,4 +158,4 @@ Returns:
 * [GommeHD.net](https://laby.net/server/gommehd): Server-Data
 
 ## LICENSE
-MIT © 2022 [schnappi21](https://github.com/schnappi21)
+MIT © 2023 [arktn](https://github.com/arktn)
