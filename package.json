@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schnappi21/laby.net.git"
+    "url": "git+https://github.com/arktn/laby.net.git"
   },
   "keywords": [
     "laby",
@@ -22,12 +22,12 @@
     "skin",
     "head"
   ],
-  "author": "schnappi21 (https://github.com/schnappi21)",
+  "author": "arktn (https://github.com/arktn)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/schnappi21/laby.net/issues"
+    "url": "https://github.com/arktn/laby.net/issues"
   },
-  "homepage": "https://github.com/schnappi21/laby.net#readme",
+  "homepage": "https://github.com/arktn/laby.net#readme",
   "devDependencies": {
     "mocha": "^10.0.0"
   }
