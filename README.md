@@ -158,4 +158,4 @@ Returns:
 * [GommeHD.net](https://laby.net/server/gommehd): Server-Data
 
 ## LICENSE
-MIT © 2022 [kraigee](https://github.com/kraigee)
+MIT © 2023 [arktn](https://github.com/arktn)
